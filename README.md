@@ -1,5 +1,5 @@
 ![ss-heyhey](hey-hey.png)
-Kode synchronous seperti `println!("William's computer: hey hey");` dieksekusi langsung oleh thread utama tanpa menunggu eksekutor, setelah semua kode synchronous selesai dijalankan, barulah `executor.run()` mulai memproses task asynchronous. 
+`println!("William's computer: hey hey");` dijalankan terlebih dahulu dibandingkan 'howdy' dan 'done'. Hal ini dikarenakan kode synchronous seperti `println!("William's computer: hey hey");` dieksekusi langsung oleh thread utama tanpa menunggu eksekutor, setelah semua kode synchronous selesai dijalankan, barulah `executor.run()` mulai memproses task asynchronous. 
 
 ### Multiple spawn
 ##### Undrop spawner
